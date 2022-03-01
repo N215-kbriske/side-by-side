@@ -1,0 +1,14 @@
+footer {
+    height: $nav-footer-height;
+    background-color: $site-background;
+
+    .footer-content {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        
+        height: 100%;
+        max-width: $content-width;
+        margin: 0 auto;
+    }
+}

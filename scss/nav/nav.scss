@@ -1,0 +1,23 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    max-width: $content-width;
+    min-height: $nav-footer-height;
+    margin: 0 auto;
+    background-color: $site-background;
+
+    .logo {
+        width: 100px;
+        height: 50px;
+        background-color: antiquewhite;
+    }
+
+    .links {
+        a {
+            text-decoration: none;
+            margin-left: 20px;
+        }
+    }
+}

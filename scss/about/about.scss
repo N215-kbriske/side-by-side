@@ -1,0 +1,82 @@
+@font-face {
+  font-family: Proxima;
+  src: url(../fonts/ProximaNovaScOsfExtraCondensed.ttf);
+}
+
+@font-face {
+  font-family: Gill;
+  src: url(../fonts/GillSans.ttc);
+}
+
+.about {
+  margin-top: 110px;
+  margin-bottom: 180px;
+
+  .about-header {
+
+    h1 {
+      font-family: Proxima;
+      font-size: 60px;
+      font-weight: lighter;
+      margin-bottom: -4px;
+    }
+
+    hr {
+        width: 177px;
+        border: 1px solid;
+        margin-bottom: 36px;
+    }
+
+    p {
+      font-family: Gill;
+      font-size: 16px;
+    }
+  }
+
+  .about-client-quotes {
+    margin-top: 107px;
+
+    .client-quote-title {
+      font-family: Proxima;
+      font-size: 40px;
+    }
+
+    .client-box {
+      position: relative;
+      display: flex;
+      max-width: 722px;
+      margin-bottom: 37px;
+      //   background-color: blanchedalmond;
+
+      .client-image {
+        width: 260px;
+        height: 150px;
+        overflow: hidden;
+        margin-right: 21px;
+
+        img {
+          width: 100%;
+          //   background-color: orange;
+        }
+      }
+
+      .client-quote {
+        max-width: 440px;
+        font-family: Gill;
+        font-size: 16px;
+        font-style: italic;
+        margin-bottom: 20px;
+        //   background-color: blue;
+      }
+
+      .client-name {
+          position: absolute;
+          bottom: 0;
+          right: 0;
+          font-family: Proxima;
+          font-size: 20px;
+          color: $site-background;
+      }
+    }
+  }
+}
